@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { User } from '../../users/schemas/user.schema';  // Assurez-vous que le chemin est correct
+import { User } from '../../users/schemas/user.schema';
 import { Film } from './film.schema';
 
 @Schema()
